@@ -11,14 +11,19 @@ print(int(a)+ int(b))
 
 # datatype should be correct for conversion
 
-
 # 2.Implicit ->> python doing conversion itself
+
 c = 9.9
 d = 8
 
 print(c+d)
 
-# python convert lower data type into higher datatype to prevet data loss
+# python convert lower data type into higher datatype to prevent data loss
+
+
+
+
+
 
 
 
