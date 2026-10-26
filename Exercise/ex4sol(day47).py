@@ -3,7 +3,7 @@ import string
 
 
 str = input("Enter the string : ")
-words = str.split(" ")
+words = str.split(" ") #splits the string 
 coding = input("1 for coding or 0 for decoding")
 coding = True if (coding =='1') else False
 print(coding) 
