@@ -21,7 +21,7 @@ if(coding):
             
             nwords.append(stnew)
         else:
-            nwords.apend(word[::-1]) # otherwise append the reverse 
+            nwords.append(word[::-1]) # otherwise append the reverse 
     print(" ".join(nwords)) # join ka kaam hota hai string + list             
     
 else:
@@ -32,5 +32,5 @@ else:
             stnew = stnew[-1] + stnew[:-1] # last character + last-1 tak sare characters   
             nwords.append(stnew)
         else:
-            nwords.apend(word[::-1])
+            nwords.append(word[::-1])
     print(" ".join(nwords))    
