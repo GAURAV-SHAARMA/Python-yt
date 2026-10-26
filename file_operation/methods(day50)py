@@ -1,0 +1,44 @@
+# f = open("my_file.txt" , "r")
+# while True:
+#     line = f.readline()
+#     #readline() method read s single line from the file . if we want to read multiople lines then we can use loop and return the lines a list of strings
+    
+#     if not line:
+#         break
+#     print(line)
+
+
+
+#marks file
+
+# f = open("marks.txt" , "r")
+# i =0 #for lines
+# while True:
+#     i = i+1
+#     lines =(f.readline())
+
+#     if not lines:
+#         break
+#     if not lines.strip():
+#         continue
+#     m1 = int(lines.split(",")[0])
+#     m2 = int(lines.split(",")[1])
+#     m3 = int(lines.split(",")[2])
+    
+#     print(f"Marks of Student {i} in maths is : {m1}")
+#     print(f"Marks of Student {i} in english is : {m2}")
+#     print(f"Marks of Student {i} in msst is : {m3}")
+ 
+#     print(lines)
+
+
+
+
+
+#writelines()
+
+f= open("my_file.txt" , "w")
+
+lines = ['line 1\n' , 'line 2\n' , 'line 3\n']  # we have to insert \n for new lines
+f.writelines(lines)
+f.close()
